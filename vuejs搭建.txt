@@ -55,3 +55,8 @@ vuejs环境搭建完成
 		
 			cd first-vue // 进入项目根目录
 			npm run serve // 运行项目
+			
+			
+			1.先删除node_modules
+			2.找对项目目录 npm install （cnpm install）
+			3.查看项目目录是否写对，执行 npm run dev （cnpm run dev）

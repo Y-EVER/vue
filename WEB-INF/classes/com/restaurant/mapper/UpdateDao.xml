@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "../../../mybatis-3-mapper.dtd">
+<!-- 当配置文件名跟Mapper名称一样时就不用配置namespace -->
+<mapper namespace="com.restaurant.dao.UpdateDao">
+
+</mapper>

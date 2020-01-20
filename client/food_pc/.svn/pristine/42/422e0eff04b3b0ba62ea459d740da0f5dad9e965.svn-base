@@ -1,0 +1,55 @@
+<template>
+  <div class="kzt">
+      <el-container>
+        <el-header>
+          <div class="">
+              <img src="" alt="">
+              <ul class="top_ul_one d_fix">
+                <li>
+                    <i @click="drawer = true" class="el-icon-chat-dot-square"></i>
+                </li>
+                <li>
+                    <i @click="drawer_t = true" class="el-icon-message-solid"></i>
+                </li>
+                <li>
+                    <i @click="drawer_r = true" class="el-icon-s-grid"></i>
+                </li>
+              </ul>
+          </div>
+        </el-header>
+        <el-container>
+          <el-aside width="200px">Aside</el-aside>
+          <el-container>
+            <el-main>Main</el-main>
+            <el-footer>Footer</el-footer>
+          </el-container>
+        </el-container>
+      </el-container>
+  </div>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+        
+        }
+    }
+}
+</script>
+
+<style lang="less" scoped>
+  .kzt{width: 100%;height: 100%;background: url('../assets/images/body_bg.jpg')}
+  .top_ul_one {
+  border-right: 1px solid #f2f2f2;
+  padding-right: 10px;
+  height: 100%;
+}
+.top_ul_one > li {
+  margin-left: 8px;
+}
+.top_ul_one > li > i {
+  font-size: 20px;
+  color: #fff;
+}
+</style>
